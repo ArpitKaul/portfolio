@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("cat-han-W_5Eakb1598-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+}
+.logo {
+  margin-left: 10px;
+  color: #fff;
+}
+.navbar {
+  margin-left: auto;
+}
+.navbar a {
+  padding: 0px 30px 2px 2px;
+    text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition: 0.3s;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #0ef;
+}
+.home-content {
+  margin-top: 100px;
+  display: flex;
+  gap: 130px;
+  color: #fff;
+  font-size: 22px;
+}
+.content {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.content h4 {
+  font-size: 50px;
+  color: white;
+}
+.content .auto-type {
+  color: #0ef;
+}
+.social-media img {
+  width: 16rem;
+  border-radius: 60%;
+  box-shadow: 2px 2px 11px 8px #0ef;
+}
+.icon {
+  display: flex;
+  margin-left: 40px;
+}
+.icon img {
+  width: 45px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 11px 12px #0ef;
+  text-align: center;
+  height: 30px;
+  background-color: #0ef;
+  border-radius: 90%;
+  margin-left: 50px;
+  width: 30px;
+}
+
+.icon img:hover {
+  width: 40px;
+  height: 40px;
+}
+.download button {
+  border-radius: 40px;
+  background-color: #0ef;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 12rem;
+  height: 40px;
+  border: none;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+.me img {
+  width: 20rem;
+  border-radius: 30%;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+h1 {
+  color: #0ef;
+  cursor: pointer;
+}
+
+h3 {
+  color: #fff;
+  cursor: pointer;
+  color: #0ef;
+}
+
+p {
+  color: #fff;
+  cursor: pointer;
+}
+
+.me {
+  display: flex;
+}
+.more button{
+  border-radius: 40px;
+  background-color: #0ef;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 12rem;
+  height: 40px;
+  border: none;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+.about {
+  margin-left: 50px;
+  margin-top: 13rem;
+}
+.about h1 {
+  padding-top: 110px;
+}
+.services h1 {
+  margin-left: 35rem;
+  margin-top: 90px;
+  padding-top: 40px;
+}
+.services1 {
+  background-color: black;
+  width: 20rem;
+  height: 20rem;
+  border: #0ef;
+  margin-left: 60px;
+  color: white;
+  box-shadow: 1px 1px 8px 6px #0ef;
+  border-radius: 10%;
+  margin-top: 8rem;
+}
+.services1 button{
+  border-radius: 40px;
+  background-color: #0ef;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  box-shadow: 1px 1px 8px 3px #0ef;
+  margin-top: 6rem;
+  margin-left: 116px;
+}
+.services1 img {
+  text-align: center;
+  border-radius: 40%;
+  margin-left: 9rem;
+  box-shadow: 1px 1px 8px 6px #0ef;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.services1 p {
+  margin-top: 15px;
+  margin-left: 13px;
+}
+
+.services1:hover {
+  width: 22rem;
+  height: 21rem;
+  margin-top: 6rem;
+  transition: ease-in-out 0.1s;
+}
+.serv {
+  display: flex;
+}
+.project {
+  margin-bottom: 10px;
+}
+.project h1 {
+  margin-top: 25rem;
+  margin-left: 32rem;
+  font-size: 40px;
+}
+.pics {
+  display: flex;
+  margin-top: 5px;
+}
+.pic1 img {
+  width: 18rem;
+  height: 13rem;
+  border-radius: 30%;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 8px 3px #0ef;
+  cursor: pointer;
+}
+.pic1 img:hover {
+  box-shadow: 3px 3px 20px 10px #0ef;
+}
+.pic {
+  display: flex;
+}
+.pic3 img {
+  width: 18rem;
+  height: 13em;
+  border-radius: 30%;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 8px 3px #0ef;
+  cursor: pointer;
+}
+.pic3 img:hover {
+  box-shadow: 3px 3px 20px 10px #0ef;
+}
+.contact h1 {
+  margin-top: 21rem;
+  margin-left: 32rem;
+}
+.form1 {
+  display: flex;
+}
+#Full-name {
+  margin-top: 15px;
+  background-color: #333;
+  width: 20rem;
+  border: none;
+  height: 35px;
+  margin-left: 16rem;
+  border-radius: 5px;
+  color: #0ef;
+  box-shadow:1px 1px 8px 3px #0ef;
+}
+#Email-Address {
+  margin-top: 15px;
+  background-color: #333;
+  width: 20rem;
+  border: none;
+  height: 35px;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: #0ef;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+.form2 {
+  display: flex;
+}
+#Mobile-number {
+  margin-top: 15px;
+  background-color: #333;
+  width: 20rem;
+  border: none;
+  height: 35px;
+  margin-left: 16rem;
+  border-radius: 5px;
+  color: #0ef;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+#Email-Subject {
+  margin-top: 15px;
+  background-color: #333;
+  width: 20rem;
+  border: none;
+  height: 35px;
+  margin-left: 16px;
+  border-radius: 5px;
+  color: #0ef;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+#Your-Message {
+  margin-top: 15px;
+  background-color: #333;
+  width: 41rem;
+  border: none;
+  height: 262px;
+  margin-left: 16rem;
+  border-radius: 5px;
+  color: #0ef;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+#Your-Message::placeholder {
+  top: 0;
+  position: absolute;
+  padding: 10px;
+}
+.button button {
+  margin-top: 0px;
+  margin-left: 32rem;
+  border-radius: 40px;
+  background-color: #0ef;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  box-shadow: 1px 1px 8px 3px #0ef;
+}
+.popup-content{
+  background-color: #fefefe;
+  padding: 20px;
+  width: 60%;
+}
+.popup{
+  position: fixed;
+  padding-top: 100px;
+  left: 1;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+.close{
+  font-size: 28px;
+  font-weight: bold;
+  transition: ease-in-out;
+}
+.close:hover{
+  cursor: pointer;
+}
+.popup-content p{
+  color: black;
+}
